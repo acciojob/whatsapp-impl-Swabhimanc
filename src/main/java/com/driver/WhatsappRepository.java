@@ -53,7 +53,7 @@ public class WhatsappRepository {
         adminMap.put(group, users.get(0));
         groupUserMap.put(group, users);
         groupMessageMap.put(group, new ArrayList<Message>());
-        return null;
+        return group;
     }
     public int createMessage(String content){
         // The 'i^th' created message has message id 'i'.
